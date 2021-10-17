@@ -1,0 +1,413 @@
+@import url('https:////fonts.googleapis.com/css?family=Noto+Sans+TC:400,500');
+@import url('https:////fonts.googleapis.com/css?family=Ubuntu:wght@300;400;500;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto+Sans+TC', sans-serif;
+}
+header
+{
+  position: relative;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  position: relative;
+  color: #222;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 700;
+}
+.group
+{
+  position: relative;
+  display: flex;
+}
+.group .navigation,
+.group .action
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.group ul li
+{
+  list-style: none;
+}
+.group ul li a
+{
+  color: #222;
+  text-decoration: none;
+  margin-left: 30px;
+}
+.group ul li a:hover
+{
+  color: #ff5a26;
+}
+.group .action
+{
+  margin-left: 20px;
+}
+.group .action li a
+{
+  font-size: 1.25em;
+}
+.banner
+{
+  position: relative;
+  width: 100%;
+}
+.banner .bg
+{
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  background: #555;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cover
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 150px;
+}
+.content h2
+{
+  position: relative;
+  color: #fff;
+  font-size: 6em;
+  text-align: center;
+  padding: 15px;
+
+}
+.container{
+    width: 1170px;
+    padding-top: 300px;
+    margin: auto;
+}
+.container__footer {
+  border-top: solid 1px #dbe0df;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: #202121;
+}
+
+.copyright{
+  
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.btn1
+{
+  display: inline-block;
+  background-color: #ff5a26;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.btn2
+{
+  display: inline-block;
+  background-color: hsl(249, 100%, 57%);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.btn3
+{
+  display: inline-block;
+  background-color: hsl(59, 87%, 49%);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.btn4
+{
+  display: inline-block;
+  background-color: hsl(110, 100%, 57%);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+.searchBox
+{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 30px 50px;
+  transform: translateY(50%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.searchBox2
+{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 30px 50px;
+  transform: translateY(50%);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+.searchBox .inputBx
+{
+  margin: 0 20px;
+}
+.searchBox .inputBx p
+{
+  color: #222;
+  margin-bottom: 10px;
+}
+.searchBox .inputBx p.white
+{
+  color: #fff
+}
+.searchBox .inputBx input
+{
+  border: 1px solid #222;
+  outline: none;
+  padding: 10px;
+  width: 100%;
+  min-width: 150px;
+  font-size: 1.1em;
+}
+.searchBox .inputBx input[type="Submit"]
+{
+  outline: none;
+  border: none;
+  background-color: #ff5a26;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 13px;
+}
+.col-1-2,.col-1-3,.col-5-6,.col-1-6{
+    float: left;   
+    
+    padding: 0 15px;
+
+}
+.col-1-2{
+    width: 50%;  
+}
+.col-1-3{
+    width: 33.33333%;  
+}
+.col-5-6{
+    width: 83.33333%;
+}
+.col-1-6{
+    width: 16.66667%;
+}
+/* custom */
+.elements{
+    background-color: rgba(0,0,0,0.5);;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.givePadding{
+    padding-top: 150px;
+    padding-bottom: 180px;
+}
+.main-bg{
+    background: linear-gradient(50deg,#ff4169 0,#7c26f8 100%);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 旅遊字卡 */
+.card_body{
+  padding: 20px 50px;
+  text-align: center;
+}
+.card_body p{
+  text-align: left;
+  line-height: 24px;
+}
+.card_img {
+  max-width: 100%;
+}
+.card_footer{
+  color: #fff;
+  background-color: #42ab9e;
+  padding: 1px 10px;
+}
+/* 分頁 */
+.paging {
+  margin: 30px 0px;
+  text-align: center;
+  user-select: none;
+}
+.paging__pages {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  color: #42ab9e;
+  cursor: pointer;
+  line-height: 45px;
+}
+.paging__pages--active {
+  background-color: #42ab9e;
+  color: #fff;
+  border-radius: 100%;
+}
+/* 響應式設計 */
+@media(max-width: 991px)
+{
+  .menuToggle
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+    z-index: 1000;
+  }
+  .menuToggle .active
+  {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+  .menuToggle ion-icon
+  {
+    position: absolute;
+    --ionicon-stroke-width: 20px;
+    display: none;
+  }
+
+  .menuToggle .active ion-icon:nth-child(1)
+  {
+    display: none;
+  }
+  .menuToggle .active ion-icon:nth-child(2)
+  {
+    display: block;
+  }
+
+  .menuToggle ion-icon:nth-child(1)
+  {
+    display: block;
+  }
+  .menuToggle ion-icon:nth-child(2)
+  {
+    display: none;
+  }
+  .group .navigation
+  {
+    display: none;
+  }
+  .group .navigation .active
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    flex-direction: column;
+    z-index: 999;
+  }
+  .group ul .navigation li a
+  {
+    font-size: 1.5em;
+    margin-left: 0;
+    margin: 10px 0;
+    display: inline-block;
+  }
+  .group ul li a
+  {
+    margin-left: 20px;
+  }
+  header
+  {
+    padding: 20px;
+  }
+  .banner
+  {
+    padding: 0px;
+  }
+  .content h2
+  {
+    font-size: 3em;
+  }
+  .searchBox
+  {
+    padding: 20px;
+    transform: translateY(100%);
+  }
+}
+@media(max-width: 768px)
+  {
+    .searchBox .inputBx
+    {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .searchBox .inputBx p.white
+    {
+      display: none;
+    }
+  }
+  footer{
+    background: #666;
+    color: #999;
+    font-size: 14px;
+    padding: 16px 0;
+    font-weight: 300;
+  }
