@@ -24,3 +24,4 @@ var datadBoxTitle = document.querySelector('.datadTaitle');
 var Btn = document.querySelectorAll('.Btn');
 var UlList = document.querySelector('.ulList');
 var PgLen = document.querySelector('.pageLen');
+
