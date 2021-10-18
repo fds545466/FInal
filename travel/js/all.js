@@ -13,14 +13,15 @@ xhr.onload = function () {
 };
 
 
-
 /**
  * DOM 選擇元素
  */
-var scrollEl = document.getElementById('scroll');
-var select_location = document.querySelector('#select_location');
-var datadBox = document.querySelector('.datadBox');
-var datadBoxTitle = document.querySelector('.datadTaitle');
-var Btn = document.querySelectorAll('.Btn');
-var UlList = document.querySelector('.ulList');
-var PgLen = document.querySelector('.pageLen');
+var el = document.querySelector('.List');
+var dataLen = data.length;
+var dataBox = "";
+
+for(var i =0;i <dataLen;i++){
+    var content ='<li>'+ data[i].Name +'</li>';
+    str += content;
+}
+el.innerHTML = str;
