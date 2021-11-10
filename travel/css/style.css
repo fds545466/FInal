@@ -63,6 +63,10 @@ header .logo
   position: relative;
   width: 100%;
 }
+.cover
+{
+  width: 100%;
+}
 .banner .bg
 {
   position: relative;
@@ -72,6 +76,14 @@ header .logo
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+.banner .content{
+  width: 100%;
+}
+.bottom{
+  padding: 16px;
+  margin-bottom: 8px!important;
 }
 .cover
 {
@@ -90,6 +102,7 @@ header .logo
   align-items: center;
   flex-direction: column;
   padding: 8px 150px;
+  
 }
 .content h2
 {
@@ -102,6 +115,12 @@ header .logo
 }
 .translucent{
   background: rgb(255, 255, 255,0.6);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px 150px;
 }
 .container{
     width: 1170px;
@@ -115,10 +134,13 @@ header .logo
   font-size: 15px;
   color: #202121;
 }
-
+.card{
+  margin-bottom: 20px;
+    
+}
 .dataCardBox {
   padding: 130px 32px 0px 32px;
-  width: 1024px;
+  width: 100%;
   list-style: none;
   box-sizing: border-box;
   
@@ -198,7 +220,13 @@ header .logo
   display: flex;
   justify-content: center;
 }
-
+.top{
+  width: 100%;
+  height: 150px;
+  background-size: cover!important;
+  background-position: center!important;
+  position: relative;
+  }
 
 .txtbox p,
 .visitBox p {
@@ -231,7 +259,6 @@ header .logo
   padding: 0px 12px;
   cursor: pointer;
 }
-
 
 
 footer {
@@ -283,6 +310,30 @@ hr::before {
   left: 50%;
   transform: translateX(-50%);
 }
+.dataCard {
+  width: 464px;
+  height: 273px;
+  margin: 18px 8px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+  display: inline-block;
+}
+.dataCardBox {
+  padding: 130px 32px 0px 32px;
+  width: 1024px;
+  list-style: none;
+  box-sizing: border-box;
+  /* background-color: #333; */
+  
+}
+
+
+
+.dataCardBox_h1 {
+  font-size: 36px;
+  color: #8A82CC;
+  text-align: center;
+}
 
 .dataCardBox_img {
   position: absolute;
@@ -300,13 +351,8 @@ hr::before {
 #select_box {
   background: rgba(255, 255, 255, 0.70);
   border: 3px solid #FFFFFF;
-  border-radius: 5px;
   width: 450px;
   height: 48px;
-  position: absolute;
-  top: 225px;
-  left: 50%;
-  transform: translateX(-50%);
   font-weight: 700;
   font-size: 18px;
   font-size: 18px;
@@ -334,10 +380,22 @@ hr::before {
   margin-top: 20px;
   margin-bottom: 14px;
 }
-
-.Btn_Box {
-  margin-left: 51px;
+.btn_group{
+  display: flex;
+  justify-content: space-between;
   
+}
+.Btn_Box {
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #FFFFFF;
+  line-height: 42px;
+  margin-right: 23px;
+  cursor: pointer;
+  z-index: 3;
+  background: #fff;
 }
 
 .Btn {
@@ -349,7 +407,7 @@ hr::before {
   font-size: 20px;
   color: #FFFFFF;
   line-height: 42px;
-  margin-right: 23px;
+  margin: 0px 30px 30px;
   cursor: pointer;
 }
 
@@ -430,7 +488,6 @@ section {
   background-color: #fff;
   padding: 30px 50px;
   transform: translateY(50%);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 .searchBox2
 {
@@ -443,7 +500,6 @@ section {
   background-color: #fff;
   padding: 30px 50px;
   transform: translateY(50%);
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
 }
 .searchBox .inputBx
 {
@@ -648,8 +704,9 @@ section {
     transform: translateY(100%);
   }
 }
+
 @media(max-width: 768px)
-  {
+  { 
     .searchBox .inputBx
     {
       width: 100%;
@@ -659,6 +716,62 @@ section {
     {
       display: none;
     }
+    .dataCardBox
+    {
+      max-width:100%;
+    }
+    .banner .bg .cover
+    {
+      max-width: 100%;
+      max-height: auto;
+    }
+    .Btn_Box{
+      justify-content: center;
+      margin-right: 0%;
+    }
+    .pageNav{
+      width: 100%;
+      justify-content: center;
+    }
+    .translucent{
+      width: 100%;
+    }
+    .translucent{
+      width: 100px;
+    }
+    .cover
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .Btn {
+      display: inline-block;
+      width: 65px;
+      height: 35px;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 20px;
+      color: #FFFFFF;
+      line-height: 21px;
+      margin: 0px 40px 40px;
+      cursor: pointer;
+    }
+    .btn_group{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .txtbox{
+      max-width: 100%;
+    }
+    .picbox{
+      max-width: 100%;
+    }
+
   }
   footer{
     background: rgb(66, 100, 175);
@@ -666,4 +779,6 @@ section {
     font-size: 14px;
     padding: 16px 0;
     font-weight: 300;
+    width: 100%;
   }
+  
