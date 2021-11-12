@@ -763,6 +763,7 @@ section {
     .btn_group{
       display: flex;
       justify-content: space-between;
+      max-width: 100%;
       
     }
     .txtbox{
