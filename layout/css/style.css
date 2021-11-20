@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 638px;
+    background-color: #fff;
+}
+.search
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.search .input
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+.search .input input
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    padding: 10px 20px;
+
+}
+.search .input .btn
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 43px;
+    height: 100%;
+    background-color: #fff;
+
+}
+.search .input .btn .icon-inner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.destination
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.destination .input
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.destination .input input
+{
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    padding: 10px 20px;
+}
+.destination .input .btn
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 43px;
+    height: 100%;
+    background-color: #fff;
+
+}
+.destination .input .btn .icon-inner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.navigation
+{
+    position: relative;
+    width: 354px;
+}
+.navigation ul
+{
+    display: flex;
+}
+.navigation ul li
+{
+    position: relative;
+    list-style: none;
+    width: 145px;
+    height: 110;
+}
+.navigation ul li a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+
+}
+.navigation ul li a .icon
+{
+    position: relative;
+    line-height: 40px;
+    transition: 0.5s;
+}
