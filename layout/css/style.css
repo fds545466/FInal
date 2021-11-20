@@ -21,7 +21,7 @@ body
     height: 43px;
     background-color: #fff;
     border-radius: 8px;
-    transition: 0.5s;
+    
 }
 .search .input
 {
@@ -57,7 +57,7 @@ body
     background-color: #fff;
 
 }
-.search .input .btn .icon-inner
+.search .input .btn ion-icon
 {
     position: absolute;
     top: 50%;
@@ -71,7 +71,7 @@ body
     height: 43px;
     background-color: #fff;
     border-radius: 8px;
-    transition: 0.5s;
+    
 }
 
 .destination .input
@@ -108,7 +108,7 @@ body
     background-color: #fff;
 
 }
-.destination .input .btn .icon-inner
+.destination .input .btn ion-icon
 {
     position: absolute;
     top: 50%;
@@ -138,13 +138,19 @@ body
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: #fff;
+    color: #000;
     text-align: center;
-
 }
 .navigation ul li a .icon
 {
     position: relative;
-    line-height: 40px;
-    transition: 0.5s;
+    line-height: 75px;
+    font-size: 30px;
+}
+.navigation ul li a .text
+{   
+    font-size: 16px;
+    color: #000;
+    bottom: 20px;
+    font-size: 400;
 }
