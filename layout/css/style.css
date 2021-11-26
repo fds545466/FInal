@@ -7,7 +7,6 @@
 }
 body
 {
-    display: flex;
     justify-content: center;
     align-items: center;
     width: 375px;
@@ -21,7 +20,7 @@ body
     height: 43px;
     background-color: #fff;
     border-radius: 8px;
-    
+    transition: 0.5s;
 }
 .search .input
 {
@@ -57,7 +56,7 @@ body
     background-color: #fff;
 
 }
-.search .input .btn ion-icon
+.search .input .btn .icon-inner
 {
     position: absolute;
     top: 50%;
@@ -71,7 +70,7 @@ body
     height: 43px;
     background-color: #fff;
     border-radius: 8px;
-    
+    transition: 0.5s;
 }
 
 .destination .input
@@ -108,28 +107,20 @@ body
     background-color: #fff;
 
 }
-.destination .input .btn ion-icon
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .navigation
 {
     position: relative;
     width: 354px;
 }
-.navigation ul
-{
-    display: flex;
-}
+
 .navigation ul li
 {
     position: relative;
     list-style: none;
     width: 145px;
-    height: 110;
+    height: 110;;
+    z-index: 1;
 }
 .navigation ul li a
 {
@@ -140,17 +131,55 @@ body
     flex-direction: column;
     color: #000;
     text-align: center;
+
 }
-.navigation ul li a .icon
+.navigation ul li a .icon-8
 {
     position: relative;
-    line-height: 75px;
-    font-size: 30px;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #3FB195;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
 }
-.navigation ul li a .text
+.navigation ul li a .icon-8 .twicon-balloon
 {   
-    font-size: 16px;
-    color: #000;
-    bottom: 20px;
-    font-size: 400;
+    position: relative;
+    color: #fff;
+
+}
+
+.indicator
+{
+    position: absolute;
+    left: 0;
+    width: 163.5px;
+    height: 110px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1.5px solid #3FB195;
+}
+.drop-down-menu .county
+{
+    position: absolute;
+    left: 0;
+    width: 78px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1.5px solid #3FB195;
+}
+.illustration
+{
+    position: absolute;
+    width: 1008px;
+    height: 670px;
+    left: 585px;
+    top: 81px;
+
+    background: url(image.png);
 }

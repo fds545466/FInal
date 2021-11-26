@@ -9,18 +9,66 @@
     <link rel="stylesheet" href="twicon/twicon.css">
 </head>
 <body>
-    <!-- <div class="banner">
-        <img src="img/travel.jpg">
-    </div> -->
+    <header>
+        <a href="#" class="logo"><h3>TRAVEL</h3></a>
+    </header>
+    <div class="illustration">
+        <h1>探索。<br>福爾摩沙</h1>
+        <div class="popular">
+            <ion-icon name="location-outline"></ion-icon>   
+            <h3>熱門景點</h3>
+        </div>
+        <div class="tourism">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>觀光活動</h3>
+        </div>
+        <div class="delicacy">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>美食品嚐</h3>
+        </div>
+        <div class="accommodation">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>住宿推薦</h3>
+        </div>
+    </div>
     <div class="menu">
         <div class="toggle"><ion-icon name="list-outline"></ion-icon></div>
         <div class="destination">
             <div class="input">
                 <input type="text" placeholder="選擇目的地" id="mydestination">
                 <div class="btn">
-                    <ion-icon name="chevron-down-outline"></ion-icon>
+                    <ion-icon name="chevron-down-circle-outline"></ion-icon>
                 </div>
             </div>
+            <ul class="drop-down-menu">
+                <div class="county">
+                    <li><a href="#"></a>基隆</li>
+                    <li><a href="#"></a>台北</li>
+                    <li><a href="#"></a>新北</li>
+                    <li><a href="#"></a>桃園</li>
+                    <li><a href="#"></a>新竹</li>
+                    <li><a href="#"></a>苗栗</li>
+                    <li><a href="#"></a>台中</li>
+                    <li><a href="#"></a>彰化</li>
+                    <li><a href="#"></a>雲林</li>
+                    <li><a href="#"></a>南投</li>
+                    <li><a href="#"></a>嘉義</li>
+                    <li><a href="#"></a>台南</li>
+                    <li><a href="#"></a>高雄</li>
+                    <li><a href="#"></a>屏東</li>
+                    <li><a href="#"></a>台東</li>
+                    <li><a href="#"></a>花蓮</li>
+                    <li><a href="#"></a>澎湖</li>
+                    <li><a href="#"></a>金門</li>
+                    <li><a href="#"></a>馬祖</li>
+                    <li><a href="#"></a>小琉球</li>
+                    <li><a href="#"></a>綠島</li>
+                    <li><a href="#"></a>蘭嶼</li>
+                </div>
+                
+                
+                
+            </ul>
         </div>
         <div class="search">
             
@@ -35,72 +83,90 @@
         <div class="navigation">
             <ul>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-zeelandia"></i>
-                        </span>
-                        <span class="text">歷史文化</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-1">
+                                <i class="twicon-zeelandia"></i>
+                            </span>
+                            <span class="text">歷史文化</span>
+                        </a>
+                    </div>
+                    
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-xingtian-tmp"></i>
-                        </span>
-                        <span class="text">宗教巡禮</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-2">
+                                <i class="twicon-xingtian-tmp"></i>
+                            </span>
+                            <span class="text">宗教巡禮</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-queens-head"></i>
-                        </span>
-                        <span class="text">風景區</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-3">
+                                <i class="twicon-queens-head"></i>
+                            </span>
+                            <span class="text">風景區</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-grand-hotel"></i>
-                        </span>
-                        <span class="text">住宿推薦</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-4">
+                                <i class="twicon-grand-hotel"></i>
+                            </span>
+                            <span class="text">住宿推薦</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-youbike"></i>
-                        </span>
-                        <span class="text">戶外踏青</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-5">
+                                <i class="twicon-youbike"></i>
+                            </span>
+                            <span class="text">戶外踏青</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-sky-lantern"></i>
-                        </span>
-                        <span class="text">親子活動</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-6">
+                                <i class="twicon-sky-lantern"></i>
+                            </span>
+                            <span class="text">親子活動</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-tapioca"></i>
-                        </span>
-                        <span class="text">美食品嘗</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-7">
+                                <i class="twicon-tapioca"></i>
+                            </span>
+                            <span class="text">美食品嘗</span>
+                        </a>
+                    </div>
                 </li>
                 <li class="list">
-                    <a href="#">
-                        <span class="icon">
-                            <i class="twicon-balloon"></i>
-                        </span>
-                        <span class="text">觀光活動</span>
-                    </a>
+                    <div class="indicator">
+                        <a href="#">
+                            <span class="icon-8">
+                                <i class="twicon-balloon"></i>
+                            </span>
+                            <span class="text">觀光活動</span>
+                        </a>
+                    </div>
+                    
                 </li>
+
             </ul>
         </div>
-        
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
