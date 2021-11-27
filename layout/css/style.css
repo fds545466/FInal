@@ -1,7 +1,10 @@
 *
 {
+
     margin: 0;
-    padding: 0;
+    padding: 1rem;
+    list-style: none;
+    border: 1px solid #f00;
     box-sizing: border-box;
     font-family: 'Popins',sans-serif;
 }
@@ -133,13 +136,92 @@ body
     text-align: center;
 
 }
-.navigation ul li a .icon-8
+.navigation ul li a .icon-1
 {
     position: relative;
     justify-content: center;
     line-height: 40px;
     transition: 0.5s;
     background: #3FB195;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.navigation ul li a .icon-2
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #FF9999;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.navigation ul li a .icon-3
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #81A4FF;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.navigation ul li a .icon-4
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #C17B53;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.navigation ul li a .icon-5
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #C499FF;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.navigation ul li a .icon-6
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #64C5E3;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.navigation ul li a .icon-7
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background:#FD975E;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.navigation ul li a .icon-8
+{
+    position: relative;
+    justify-content: center;
+    line-height: 40px;
+    transition: 0.5s;
+    background: #8FCA6B;
     width: 70px;
     height: 70px;
     border-radius: 35px;
@@ -180,6 +262,5 @@ body
     height: 670px;
     left: 585px;
     top: 81px;
-
     background: url(image.png);
 }
