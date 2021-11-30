@@ -1,0 +1,243 @@
+主體
+<h1>探索。<br>福爾摩沙</h1>
+        <div class="popular">
+            <ion-icon name="location-outline"></ion-icon>   
+            <h3>熱門景點</h3>
+        </div>
+        <div class="tourism">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>觀光活動</h3>
+        </div>
+        <div class="delicacy">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>美食品嚐</h3>
+        </div>
+        <div class="accommodation">
+            <ion-icon name="location-outline"></ion-icon>
+            <h3>住宿推薦</h3>
+        </div>
+下拉選單
+<div class="domain">
+    <li class="county"><a href="#"></a>基隆</li>
+    <li class="county"><a href="#"></a>台北</li>
+    <li class="county"><a href="#"></a>新北</li>
+    <li class="county"><a href="#"></a>桃園</li>
+    <li class="county"><a href="#"></a>新竹</li>
+    <li class="county"><a href="#"></a>苗栗</li>
+    <li class="county"><a href="#"></a>台中</li>
+    <li class="county"><a href="#"></a>彰化</li>
+    <li class="county"><a href="#"></a>雲林</li>
+    <li class="county"><a href="#"></a>南投</li>
+    <li class="county"><a href="#"></a>嘉義</li>
+    <li class="county"><a href="#"></a>台南</li>
+    <li class="county"><a href="#"></a>高雄</li>
+    <li class="county"><a href="#"></a>屏東</li>
+    <li class="county"><a href="#"></a>台東</li>
+    <li class="county"><a href="#"></a>花蓮</li>
+    <li class="county"><a href="#"></a>澎湖</li>
+    <li class="county"><a href="#"></a>金門</li>
+    <li class="county"><a href="#"></a>馬祖</li>
+    <li class="county"><a href="#"></a>小琉球</li>
+    <li class="county"><a href="#"></a>綠島</li>
+    <li class="county"><a href="#"></a>蘭嶼</li>
+</div>
+CSS 
+.drop-down-menu .county
+{
+    position: absolute;
+    left: 0;
+    width: 78px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: 1.5px solid #3FB195;
+}
+
+蒐尋器
+<div class="navigation">
+                    <ul>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-1">
+                                            <i class="twicon-zeelandia"></i>
+                                        </span>
+                                        <span class="text">歷史文化</span>
+                                    </a>
+                                </div>
+                                
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-2">
+                                            <i class="twicon-xingtian-tmp"></i>
+                                        </span>
+                                        <span class="text">宗教巡禮</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-3">
+                                            <i class="twicon-queens-head"></i>
+                                        </span>
+                                        <span class="text">風景區</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-4">
+                                            <i class="twicon-grand-hotel"></i>
+                                        </span>
+                                        <span class="text">住宿推薦</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-5">
+                                            <i class="twicon-youbike"></i>
+                                        </span>
+                                        <span class="text">戶外踏青</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-6">
+                                            <i class="twicon-sky-lantern"></i>
+                                        </span>
+                                        <span class="text">親子活動</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-7">
+                                            <i class="twicon-tapioca"></i>
+                                        </span>
+                                        <span class="text">美食品嘗</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="indicator">
+                                    <a href="#">
+                                        <span class="icon-8">
+                                            <i class="twicon-balloon"></i>
+                                        </span>
+                                        <span class="text">觀光活動</span>
+                                    </a>
+                                </div>
+                                
+                            </li>
+                    </ul>
+                </div>
+navigation class
+.search
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.search .input
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+.search .input input
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    padding: 10px 20px;
+
+}
+.search .input .btn
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 43px;
+    height: 100%;
+    background-color: #fff;
+
+}
+.search .input .btn .icon-inner
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.destination
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.destination .input
+{
+    position: relative;
+    width: 343px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+}
+
+.destination .input input
+{
+    position: absolute;
+    top: 1px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 8px;
+    padding: 10px 20px;
+}
+.destination .input .btn
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 43px;
+    height: 100%;
+    background-color: #fff;
+
+}
+
+
+
+
+                        
